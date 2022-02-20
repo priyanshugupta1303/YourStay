@@ -1,0 +1,133 @@
+.container{
+    position:relative;
+    width:100%;
+    height: 100rem;
+}
+.container img{
+    width: 100%;
+    height:100rem;
+}
+.container .btn1{
+    position:absolute;
+    top:5%;
+    left:75%;
+    width: 15%;
+    height: 5%;
+    font-size:2rem;
+    font-weight:900;
+    color:#ffffff;
+}
+.container .btn2{
+    position:absolute;
+    top:12%;
+    left:75%;
+    width: 15%;
+    height: 5%;
+    font-size:2rem;
+    font-weight:900;
+    color:#ffffff;
+}
+.container .rectangle{
+    position:absolute;
+    top:5%;
+    left:15%;
+    width:20%;
+    height:8%;
+    background-color: #FF6B00;
+}
+.container .rectangle2{
+    position:absolute;
+    top:25%;
+    left:10%;
+    width:60%;
+    height:40%;
+    background-color: #FF6B00;
+}
+
+.container .rectangle2 .img{
+    position:absolute;
+    top:25%;
+    left:10%; 
+    width: 1rem;
+    height:0.5rem;   
+}
+
+.container .rectangle3{
+    position:absolute;
+    top:35.75%;
+    left:55%;
+    width:30%;
+    height:18%;
+    background-color: #FF6B00;
+}
+.container .btn3{
+    position:absolute;
+    top:75%;
+    left:12%;
+    width: 15%;
+    height: 5%;
+    font-size:2rem;
+    font-weight:900;
+    color:#ffffff;
+    background-color: #FF6B00;
+}
+.container .btn4{
+    position:absolute;
+    top:75%;
+    left:42%;
+    width: 15%;
+    height: 5%;
+    font-size:2rem;
+    font-weight:900;
+    color:#ffffff;
+    background-color: #FF6B00;
+}
+.container .btn5{
+    position:absolute;
+    top:75%;
+    left:72%;
+    width: 15%;
+    height: 5%;
+    font-size:2rem;
+    font-weight:900;
+    color:#ffffff;
+    background-color: #FF6B00;
+}
+.container .line{
+    position:absolute;
+    top:90%;
+    height:0.25rem;
+    left:5%;
+}
+.container .help{
+    position:absolute;
+    top:93%;
+    left:8%;
+    color:#FF6B00;
+    font-size: 2rem;
+    font-weight:600;
+}
+.container .about{
+    position:absolute;
+    top:93%;
+    left:32%;
+    color:#FF6B00;
+    font-size: 2rem;
+    font-weight:600;
+}
+.container .partner{
+    position:absolute;
+    top:93%;
+    left:52%;
+    color:#FF6B00;
+    font-size: 2rem;
+    font-weight:600;
+}
+.container .app{
+    position:absolute;
+    top:93%;
+    left:82%;
+    color:#FF6B00;
+    font-size: 2rem;
+    font-weight:600;
+}

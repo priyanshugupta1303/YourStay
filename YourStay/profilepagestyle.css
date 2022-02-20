@@ -1,0 +1,248 @@
+.container{
+    position:relative;
+    width:100%;
+    height: 100rem;
+}
+.container img{
+    width: 100%;
+    height:100%;
+}
+.container .rectangle{
+    position:absolute;
+    top:5%;
+    left:15%;
+    width:20%;
+    height:8%;
+    background-color: #FF6B00;
+}
+.container .btn1{
+    position:absolute;
+    top:7%;
+    left:75%;
+    width: 15%;
+    height: 5%;
+    font-size:2rem;
+    font-weight:900;
+    color:#ffffff;
+}
+.container .line{
+    position:absolute;
+    top:18%;
+    height:0.25rem;
+    left:5%;
+}
+.container .dot{
+    position:absolute;
+    top:22%;
+    left:45%;
+    background-color: #FF6B00;
+    width: 11rem;
+    height: 11rem;
+    border-radius: 50%;
+    border: solid #FF6B00 1rem;
+}
+.container .dot .img{
+    background-color: #FF6B00;
+    border: 10px solid #FF6B00;
+      
+}
+/* .container .profile{
+    position:absolute;
+    top:0%;
+    left:45.5%;
+    width: 10%;
+    height: auto;
+} */
+/* .container .btn2{
+
+} */
+
+.container .helouser{
+    position: absolute;
+    top:36%;
+    left:42%
+}
+.container .menu{
+    background-color: #FF6B00;
+    position: absolute;
+    top: 25%;
+    left: 15%;
+    width:12rem;
+    height:5rem;
+    font-size: 2.5rem;
+    color:#ffffff;
+    text-align: center;
+}
+.container .city{
+    background-color: #FF6B00;
+    position: absolute;
+    top: 25%;
+    left: 73%;
+    width:12rem;
+    height:5rem;
+    font-size: 1.5rem;
+    color:#ffffff;
+    text-align: center;
+}
+.container .rectangle2{
+    position: absolute;
+    top:45%;
+    left:18%;
+    width:60rem;
+    height:35rem;
+    background-color: #FF6B00;
+}
+.container .rectangle2 .room{
+    position: absolute;
+    top:6rem;
+    left:7.5%;
+    width:40rem;
+    height:23rem;
+}
+.container .rectangle2 .more{
+position:absolute;
+top:85%;
+left:10%;
+}
+.container .rectangle2 .left{
+    position:absolute;
+    top:43%;
+    left:8%;
+    width:5rem;
+    height:5rem;
+    border-radius: 50%;
+    color: #ffffff;
+    background-color: #94440a50;
+    font-size: 3rem;
+}
+.container .rectangle2 .right{
+    position:absolute;
+    top:43%;
+    left:62%;
+    width:5rem;
+    height:5rem;
+    border-radius: 50%;
+    color: #ffffff;
+    background-color:#94440a50;
+    font-size: 3rem;
+}
+.container .rectangle2 .box{
+    position: absolute;
+    background-color:white;
+    height: 32rem;
+    width:15rem;
+top:4%;
+left:72%;
+}
+.container .rectangle2 .box .location{
+        position:absolute;
+        top:5%;
+        left:18%;
+        width:10rem;
+        height:5rem;
+        background-color: #ffd7a3;
+}
+
+.container .rectangle2 .box .space{
+    position:absolute;
+    top:25%;
+    left:18%;
+    width:10rem;
+    height:5rem;
+    background-color: #ffd7a3;
+}
+
+.container .rectangle2 .box .price{
+    position:absolute;
+    top:45%;
+    left:18%;
+    width:10rem;
+    height:5rem;
+    background-color: #ffd7a3;
+}
+
+
+/* .container .rectangle2 .box .location .loc{
+position:absolute;
+top:15%;
+left:35%;
+border: rgba(255, 107, 0, 7%) solid 2rem;
+background-color: rgba(255, 107, 0, 7%) ;
+} */
+.container .rectangle3{
+    position: absolute;
+    top:85%;
+    left:18%;
+    width:60rem;
+    height:35rem;
+    background-color: #FF6B00;
+}
+.container .rectangle3 .room{
+    position: absolute;
+    top:6rem;
+    left:7.5%;
+    width:40rem;
+    height:23rem;
+}
+.container .rectangle3 .more{
+position:absolute;
+top:85%;
+left:10%;
+}
+.container .rectangle3 .left{
+    position:absolute;
+    top:43%;
+    left:8%;
+    width:5rem;
+    height:5rem;
+    border-radius: 50%;
+    color: #ffffff;
+    background-color: #94440a50;
+    font-size: 3rem;
+}
+.container .rectangle3 .right{
+    position:absolute;
+    top:43%;
+    left:62%;
+    width:5rem;
+    height:5rem;
+    border-radius: 50%;
+    color: #ffffff;
+    background-color:#94440a50;
+    font-size: 3rem;
+}
+.container .rectangle3 .box{
+    position: absolute;
+    background-color:white;
+    height: 32rem;
+    width:15rem;
+top:4%;
+left:72%;
+}
+.container .rectangle3 .box .location{
+        position:absolute;
+        top:5%;
+        left:18%;
+        width:10rem;
+        height:5rem;
+        background-color: #ffd7a3;
+}
+
+.container .rectangle3 .box .space{
+    position:absolute;
+    top:25%;
+    left:18%;
+    width:10rem;
+    height:5rem;
+    background-color: #ffd7a3;
+}
+
+.container .rectangle3 .box .price{
+    position:absolute;
+    top:45%;
+    left:18%;
+    width:10rem;
+    height:5rem;
+    background-color: #ffd7a3;
+}
+

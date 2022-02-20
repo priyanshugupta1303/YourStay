@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="signlogin.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+    <meta name="google-signin-client_id" content="363423704499-9eucqij726npm0hbbpmo9t5mm0vgjn4a.apps.googleusercontent.com">
+    <title>Login/SignUp Space</title>
+</head>
+<body>
+    <div class="container">
+        <div class="rectangle">
+            <p style="color:#ffffff; font-size: 300%; position: absolute; top:-28%; left:25%;">YourStay</p>
+            <p style="color:#ffffff; font-size: 100%; position: absolute; top:50%; left:32%;">a place to live freely</p>
+        </div>
+        <p class="signlogin" >SignUp/Login Space</p>
+        <hr class="line" size="8" width="90%" color="#FF6B00">
+        <a class="g-signin2" data-onsuccess="onSignIn" href="">Login with Google</a>
+        <p style="position: absolute;top:19%;left:48.5%;color:#FF6B00;font-size: 4vh;">or</p>
+        <form class="credentials" action="">
+            <label for="firstname" style="color: #FF6B00; font-size: 4vh;" >Email</label>
+            <input class="name" type="text" id="firstname" name="fname">
+            <br><br>
+            <label for="pass" style="color: #FF6B00; font-size: 4vh;">Password</label>
+            <input class="pass" type="text" id="Password" name="fname">
+            <br><br>
+            <input type="submit" style="
+            position: absolute;
+            top:94%;
+            left:94%;
+            border:none;    border-top-left-radius:10px;
+            border-bottom-left-radius:10px;
+            border-top-right-radius:10px;
+            border-bottom-right-radius:10px; font-size: 4vh;background-color: #FF6B00;color: rgb(255, 255, 255);;" name="" id="">
+        </form>
+        <p style="position: absolute;top:31.5%;left:48.5%;color:#FF6B00;font-size: 4vh;">or</p>
+        <form class="phone" action="/login" method="POST">
+            
+            <label for="phone" style="color: #FF6B00; font-size: 4vh;" >Login with Mobile Number</label>
+            <input class="phoneinput" type="text" id="phone" name="phone">
+            <input type="submit" style="
+            position: absolute;
+            top:120%;
+            left:66%;
+            border:none;    border-top-left-radius:10px;
+            border-bottom-left-radius:10px;
+            border-top-right-radius:10px;
+            border-bottom-right-radius:10px; font-size: 4vh;background-color: #FF6B00;color: rgb(255, 255, 255);" name="" id="">
+           
+    </form>
+
+    </div>
+     <script>
+        //  function onSignIn(googleUser){
+        //      var profile=googleUser.getBasicProfile();
+        //      console.log("ID: "+profile.getID());
+        //      console.log("Full Name: "+profile.getName());
+        //      console.log("Given Name: " + profile.getGivenName());
+        //      console.log("Family Name: " + profile.getFamilyName());
+        //      console.log("Image URL: " + profile.getImageUrl());
+        //      console.log("Email: " + profile.getEmail());
+        //      var id_token =googleUser.getAuthResponse().id_token;
+        //      console.log("ID Token:"+id_token);
+        //  };
+
+     </script>
+</body>
+</html>
